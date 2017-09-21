@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<script>
+		var grades = [];
+		var gradeDisplay = 0;
+		var dispalyGrade = displayGrade(){
+			alert("hello");
+			var gradeDisplay = "Current Grade:" + grade;
+			document.getElementById('current_grade').innterHTML = gradeDisplay;
+		}
+	</script>
+</head>
+<body>
+	<div class="content">
+		<div class="rightbar">
+			<h1 class="lt_text">Grades</h1>
+			<ul>
+				<li>CS260</li>
+				<li>CS360</li>
+			</ul>
+		</div>
+		<div class="mainbody">
+			<h1>Grade Calculator</h1>
+			<div class="calculator">
+				<div>
+					<script>
+						displayGrade();
+					</script>
+					<h2 id="current_grade"></h2>
+				</div>
+				<div class="centered">
+					<button onclick="addClass()">Add Class</button>
+					<button onclick="calculate()">Calculate</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
