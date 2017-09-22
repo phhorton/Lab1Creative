@@ -1,6 +1,5 @@
 body {
 	background-color:#364e72;
-//	background-color: #494e6b;
 	margin-top:0;
 	margin-bottom:0;
 	margin-left:0;
@@ -12,21 +11,29 @@ body {
 
 .rightbar {
 	background-color:#a6b558;
-//	background-color: #985e6d;
-	width:20%;
+	width:24%;
 	position:absolute;
 	right:0;
-	padding-right:20px;
 	height:100%;
 	top: 0;
+	text-align:center;
+}
+
+#all_assignments {
+	width:90%;
 }
 
 .mainbody {
-	width:80%;
+	width:76%;
 	position:absolute;
 	left:0;
 	top:0;
 	height:100%;
+	text-align:center;
+}
+
+input {
+	font-size:30px;
 }
 
 .calculator {
@@ -39,29 +46,24 @@ body {
 	left:0;
 	right:0;
 	background-color: #192231;
-	//background-color:#98878f;
 	position:relative;
-}
-
-.centered {
-	//text-align:center;
-	position:absolute;
-	bottom:20px;
-	width:100%;
 }
 
 h1 {
 	color: white;
-	font-size:36px;
+	font-size:40px;
 	text-align: center;
 	font-family: 'Lato', sans-serif;
 }
 
+h2 {
+	text-align:center;
+	font-size:30px;
+}
 
 li {
 	list-style:none;
 	background-color:#b3bdcc;
-//	background-color:#98878f;
 	font-size:26px;
 	color:white;
 	padding-left:10px;
@@ -71,16 +73,15 @@ li {
 	font-family: 'Lato', sans-serif;
 }
 
-.lt_text {
-	color: white;
+#add {
+	margin-top:270px;
 }
 
 button {
-//	background-color: #98878f;
 	background-color:transparent;
 	border:2px solid white;
 	color:white;
-	font-size:16px;
+	font-size:26px;
 	padding:10px;
 	text-transform:uppercase;
 }
